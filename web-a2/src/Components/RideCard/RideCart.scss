@@ -1,0 +1,37 @@
+@function rem($value){
+    @return unquote(($value/1px)/16+'rem');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+$fontFamily: 'Open Sans', sans-serif;
+
+*{
+  font-family: $fontFamily;
+}
+
+$colors: #f71e68;
+
+._bgcolor{
+  background-color: $colors;
+}
+
+._textcolor{
+  color: $colors;
+}
+
+._addToFav{
+  cursor: pointer;
+  input[type='checkbox']:checked{
+    & ~._active{
+      display: inline-block !important;
+    }
+    & ~._inactive{
+      display: none;
+    }
+  }
+}
+
+._cartButton{
+right: 1.25rem;
+}
+
