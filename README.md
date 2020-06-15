@@ -196,8 +196,21 @@ Lines 46 - 58
 ```
 Copy and paste your code on lines mentioned 
 
+<div className="d-flex justify-content-center align-items-center login-container">
+                <form className="login-form text-center"  action='/' >
+                    <h1 className="mb-5 font-weight-light text-uppercase">Reset Password</h1>
+                    <div className="form-group">
+                        <input type="password" className="form-control rounded-pill form-control-lg" placeholder="Enter new password" name="up" required onChange={this.setPassHandler}/>
+                    </div>
+                    <div className="form-group">
+                        <input type="password" className="form-control rounded-pill form-control-lg" placeholder="Re-enter the new password" name="up2" required onChange={this.setNewPassHandler}/>
+                    </div>
+                    <button type="submit" className="btn mt-5 rounded-pill btn-lg btn-custom btn-block text-uppercase" value="Create account"onClick={this.validation.bind(this)}>Submit
+                    </button>
+                </form>
+            </div>
+
 ```
-https://www.youtube.com/watch?v=PF1n6ZdTaW4
 
 The code above was created by adapting the code in [Vijay Shinde](https://www.youtube.com/watch?v=PF1n6ZdTaW4) as shown below: 
 
