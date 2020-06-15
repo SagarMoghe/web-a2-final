@@ -9,7 +9,8 @@ This is the final submission of the Assignment-2 of Web development.
 
 If what is being submitted is an individual Lab or Assignment, you may simply include your name and email address. Otherwise list the members of your group.
 
-* [Sagar Moghe](sg286595@dal.ca) - (Contributor)
+* [Sagar Moghe](sg286595@dal.ca) - (Contributor) B00838037
+git: https://github.com/SagarMoghe/web-a2-final
 
 
 
