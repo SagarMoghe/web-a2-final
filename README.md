@@ -49,6 +49,11 @@ All these pages cannot be linked due to missing few connecting pages.
 Landing page and Search result page are linked. On clicking the button in cost estimator image in landing page, it will redirect to Cost-estimator Page.
 "/reset" is the route given to password reset page.
 "/result" is given to searched result page.
+"https://web-a2-b00838037.herokuapp.com/" Landing Page.
+"https://web-a2-b00838037.herokuapp.com/Estimator" Cost-Estimator page.
+"https://web-a2-b00838037.herokuapp.com/result" Result page.
+"https://web-a2-b00838037.herokuapp.com/reset" Password reset page.
+
 
 ```
 Give the example
