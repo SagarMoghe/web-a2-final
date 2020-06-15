@@ -15,11 +15,13 @@ function App() {
       <Router>
         <div className="App">
           <Switch>
-              <Route path='/' exact component={Navbar}>
+              <Route path='/' exact >
+                  <Navbar/>
                   <Carousel/>
                   <Footer/>
               </Route>
-              <Route path="/Estimator" exact component={Navbar}>
+              <Route path="/Estimator" exact >
+                  <Navbar/>
                   <Estimator/>
                   <Footer/>
               </Route>
