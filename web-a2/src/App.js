@@ -15,25 +15,23 @@ function App() {
       <Router>
         <div className="App">
           <Switch>
-              <Route path='/' exact component={Carousel}>
-                  <Navbar/>
+              <Route path='/' exact component={Navbar}>
                   <Carousel/>
                   <Footer/>
               </Route>
-              <Route path="/Estimator" exact component={Estimator}>
-                  <Navbar/>
+              <Route path="/Estimator" exact component={Navbar}>
                   <Estimator/>
                   <Footer/>
               </Route>
-              <Route path="/reset" exact component={LoggedNav}>
+              <Route path="/reset" exact >
                 <LoggedNav name="Dynamic_User"/>
                 <Reset/>
-                  <Footer/>
+                <Footer/>
               </Route>
 
-              <Route path="/result" exact component={LoggedNav}>
-                  <LoggedNav name='Dynamic user'></LoggedNav>
+              <Route path="/result" exact >
                   <SearchResult></SearchResult>
+                  <Footer/>
               </Route>
 
           </Switch>

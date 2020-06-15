@@ -3,7 +3,7 @@ import save from './Save.svg'
 import facts from './facts.svg'
 import estimator from './estimator.svg'
 import { Link } from "react-router-dom";
-// import Estimator from "../Estimator/Estimator";
+
 
 const Carousel = (props) =>{
     return(
@@ -16,7 +16,7 @@ const Carousel = (props) =>{
                </ol>
                <div className="carousel-inner">
                    <div className="carousel-item carousel-item-next carousel-item-left">
-                       <img className="first-slide"
+                       <img className="first-slide img-fluid"
                             src={save}
                             alt="First slide"/>
                            <div className="container">
@@ -28,7 +28,7 @@ const Carousel = (props) =>{
                            </div>
                    </div>
                    <div className="carousel-item">
-                       <img className="second-slide"
+                       <img className="second-slide img-fluid"
                             src={facts}
                             alt="Second slide"/>
                            <div className="container">
@@ -40,7 +40,7 @@ const Carousel = (props) =>{
                            </div>
                    </div>
                    <div className="carousel-item active carousel-item-left ">
-                       <img className="third-slide"
+                       <img className="third-slide img-fluid"
                             src={estimator}
                             alt="Third slide"/>
                            <div className="container">
