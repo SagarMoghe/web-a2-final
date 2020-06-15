@@ -43,6 +43,13 @@ Say what the step will be, assume the marker just acquired a computer
 
 To run this project, run command npm i in web-a2-final folder nad npm i in web-a2-final/web-a2 folder
 
+Note:
+I made 4 pages for this assignment: Landing page, Cost-estimator Page, Password reset, and Search result page.
+All these pages cannot be linked due to missing few connecting pages. 
+Landing page and Search result page are linked. On clicking the button in cost estimator image in landing page, it will redirect to Cost-estimator Page.
+"/reset" is the route given to password reset page.
+"/result" is given to searched result page.
+
 ```
 Give the example
 ```
@@ -235,3 +242,21 @@ I would also like to acknowledge the teams of bootstrap react and many other fra
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
+
+## References
+
+2020. Car Image. [image] Available at: <https://unsplash.com/photos/6lSBynPRaAQ> [Accessed 15 June 2020].
+
+2020. Car Sharing Image. [image] Available at: <https://www.hoeghautoliners.com/news-and-media/blogs/sharing-economy-disrupts-car-ownership-model> [Accessed 15 June 2020].
+
+2020. Cost Estimator Image. [image] Available at: <https://www.cleveroad.com/blog/see-how-to-start-a-rideshare-business-and-make-a-rideshare-app-from-scratch> [Accessed 15 June 2020].
+
+2020. Product Card Component. [video] Available at: <https://www.youtube.com/watch?v=kwW7QCr99VI> [Accessed 15 June 2020].
+
+2020. Reset Password Template. [video] Available at: <https://www.youtube.com/watch?v=PF1n6ZdTaW4> [Accessed 15 June 2020].
+
+2020. Save Money Image. [image] Available at: <https://www.bloglovin.com/@mtammy779/grocery-shopping-best-ways-to-save-money> [Accessed 15 June 2020].
+
+Getbootstrap.com. 2020. Redirecting…. [online] Available at: <https://getbootstrap.com/docs/4.1/components> [Accessed 15 June 2020].
+
+Shaha, A., 2020. Tutorial 2. [video] Available at: <https://dal.brightspace.com/d2l/le/content/124056/Home?itemIdentifier=D2L.LE.Content.ContentObject.ModuleCO-1670247> [Accessed 15 June 2020].
